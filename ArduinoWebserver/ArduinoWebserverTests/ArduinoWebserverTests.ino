@@ -36,7 +36,6 @@ void setup() {
   wifi.connectToServer("192.168.0.28", "2121");
   wifi.send(SERVER, "ESP8266 test app started");
 }
-
 void loop() {
 
   //Make sure the esp8266 is started..
